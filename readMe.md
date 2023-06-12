@@ -1,5 +1,5 @@
 # Maghreb Mornings  
-- Visite the Website : https://safouaneguilmi.github.io/maghreb-mornings/
+- Visite the Website : https://safouaneguilmi.github.io/
 ## Description: 
 This is a website for a coffee shop that showcases the shop's offerings, its core values, and provides its location information. The purpose of this website is to provide visitors with a comprehensive overview of the coffee shop and its unique features.
 ### Features:
@@ -34,4 +34,4 @@ This is a website for a coffee shop that showcases the shop's offerings, its cor
 - Mobile Version:
 ![Alt text](images/mobile.png)
 
-- **for better visualization visite** : https://safouaneguilmi.github.io/maghreb-mornings/
+- **for better visualization visite** : https://safouaneguilmi.github.io/
