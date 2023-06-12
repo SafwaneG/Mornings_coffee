@@ -1,0 +1,23 @@
+.main {
+  grid-column: center-start / center-end;
+  
+
+  &__dish-img {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    column-gap: 3rem;
+    row-gap: 2rem;
+    & img{
+      width: 100%;
+    }
+
+    &--last {
+
+      @media screen and (max-width : $bp--md) {
+        grid-column: 1/-1;
+      }
+    }
+    
+  }
+  
+}

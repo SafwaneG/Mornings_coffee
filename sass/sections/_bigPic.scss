@@ -1,0 +1,10 @@
+.bigPic{
+  grid-column: full-start / full-end;
+
+
+  & img {
+    width: 100%;
+    height: 100%;
+  };
+
+}

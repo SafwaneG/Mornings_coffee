@@ -1,0 +1,38 @@
+.food-img {
+  grid-column: full-start / col-end 3;
+  padding-bottom: 25rem;
+
+  @media screen and (max-width : $bp--sm) {
+    display: none;
+  }
+
+  & img {
+    height: 150%;
+    width: 80%;
+    object-fit: cover;
+    // transform: translateY(-2rem);
+  }
+
+}
+.food-content{
+  grid-column: col-start 4 / full-end;
+  display: grid;
+  justify-content: center;
+  padding-top: 8rem;
+  padding-bottom: 10rem;
+
+  @media screen and (max-width : $bp--sm) {
+    grid-column: full-start / full-end;
+  }
+
+
+
+  &__menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  &__item {
+    margin-bottom: 2.5rem;
+  }
+}

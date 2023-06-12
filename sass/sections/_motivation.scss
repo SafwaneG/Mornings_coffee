@@ -1,0 +1,32 @@
+.motivation-content {
+  margin: 15rem 0;
+  grid-column: full-start / col-end 5;
+  display: grid;
+  place-content: center;
+  padding: 4rem 0;
+
+  @media screen and (max-width : $bp--sm) {
+    grid-column: full-start / full-end;
+    grid-row: 6/7;
+    margin: 1rem 0 1rem 0;
+  }
+
+  
+
+}
+.motivation-video {
+  margin: 15rem 0;
+  grid-column: col-start 6 / full-end;
+
+  @media screen and (max-width : $bp--sm) {
+    grid-column: full-start / full-end;
+    grid-row: 5/6;
+
+    margin: 0;
+  }
+
+  &__vd {
+    width: 100%;
+  }
+
+}

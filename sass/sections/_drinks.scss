@@ -1,0 +1,10 @@
+.drinks-img {
+  background-color: yellow;
+  grid-column: full-start / col-end 3;
+  
+}
+.drinks-content{
+  background-color: orangered;
+  grid-column: col-start 5 / full-end;
+
+}

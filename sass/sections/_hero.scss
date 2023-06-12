@@ -1,0 +1,30 @@
+.hero {
+  position: relative;
+  background-image: linear-gradient(rgba(0,0,0, .6), rgba(0, 0, 0, 0.6)), url(../../images/header-cafe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-column: full-start / full-end;
+  grid-row: 1/3;
+  text-align: center;
+  padding-top: 8rem;
+
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  &__text {
+    word-spacing: .5rem;
+    letter-spacing: .2rem;
+    margin-top: -7rem;
+  }
+  &__arrow {
+    text-decoration: none;
+    & i {
+      font-size: 2rem;
+      color: lighten($color-dark-1,10%);
+      position: absolute;
+      bottom: 3rem;
+    }
+  }
+}

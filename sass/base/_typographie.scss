@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap");
+
+.heading-1 {
+  color: $color-light;
+  font-size: 6.2rem;
+  font-weight: 900;
+  font-variant: small-caps;
+  word-spacing: 1rem;
+
+  @media screen and (max-width : $bp--sm) {
+    word-spacing: .4rem;
+  }
+}
+.heading-2 {
+  color: $color-dark-2;
+  font-size: 3rem;
+  text-decoration: underline;
+  font-weight: 900;
+  text-align: center;
+
+  &--big {
+    font-size: 6rem;
+    text-align: left;
+    text-decoration: none;
+    font-weight: 500;
+  }
+}
+.underline-bold {
+  text-decoration: underline;
+  font-weight: 900;
+}
+.heading-3 {
+  color: rgba($color-light, 0.9);
+  font-size: 2em;
+  &--dark {
+    color: $color-dark-2;
+  }
+  &--light {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+.main {
+  &__desc-one {
+    font-size: 3rem;
+    text-align: center;
+    width: 80%;
+    margin-inline: auto;
+    color: $color-dark-2;
+
+    @media screen and (max-width : $bp--sm) {
+      width: 100%;
+    }
+
+    & span {
+      text-decoration: underline;
+      font-weight: 700;
+    }
+  }
+  &__desc-two {
+    color: $color-dark-1;
+    font-size: 2.7rem;
+    text-align: center;
+    width: 80%;
+    margin-inline: auto;
+    font-family: $native-font;
+    font-weight: 700;
+
+    @media screen and (max-width : $bp--sm) {
+      width: 100%;
+    }
+
+  }
+}
+
+.food-content {
+  &__desc {
+    color: $color-dark-1;
+    font-size: 1.9rem;
+    text-align: center;
+    width: 64.5%;
+    text-align: center;
+    margin-inline: auto;
+  }
+
+  &__title {
+    border: solid 1px $color-light-2;
+    text-align: center;
+    width: 20rem;
+    padding: 0.5rem;
+    margin-bottom: 5rem;
+    font-variant: small-caps ;
+  }
+  & .item-desc {
+    text-align: center;
+    font-size: 1.4rem;
+    color: $color-dark-1;
+  }
+}
+.contact {
+  &__desc {
+    text-align: center;
+    color: $color-dark-1;
+    font-size: 1.4rem;
+    width: 80%;
+    margin-inline: auto;
+  }
+}
+
+.contact-ifram__info {
+  & p {
+    font-size: 1.5rem;
+    color: $color-dark-1;
+
+    @media screen and (max-width : $bp--sm) {
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: .5rem;
+    }
+
+    & span {
+      font-weight: 900;
+      color: $color-dark-2;
+      margin-right: .2rem;
+    }
+  }
+}
